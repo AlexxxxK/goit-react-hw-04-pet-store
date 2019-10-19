@@ -1,0 +1,37 @@
+.button {
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: #272121;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 6%;
+  margin-left: 50px;
+}
+
+.button:hover,
+.button:focus {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.wrapper {
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 600px;
+  margin-right: 50px;
+}
+
+.description {
+  margin-left: 20px;
+  width: 1000px;
+}

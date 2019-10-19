@@ -1,0 +1,26 @@
+.navigation {
+  height: 50px;
+  background-color: #272121;
+  margin-bottom: 30px;
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navlistLink {
+  padding: 0 10px;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.active {
+  color: #ff6361;
+}
